@@ -112,3 +112,5 @@ body { background: #f2f2f2;color: #222;-webkit-font-smoothing: antialiased;font-
 	  margin: 4px 0 0;  
   }
 }
+body {
+	background: url(images/background.jpg); }
