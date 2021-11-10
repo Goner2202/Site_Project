@@ -3,113 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marchitan Alexandru, or Goner">
-    <meta name="content" content="Goner, a site for traveling to the whole worold">
-    <title>Goner Traveling</title>
-    <link href="assets/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/Images/Goner Logo .ico">
+    <meta name="content" content="Jauntie, a site for traveling a whole world">
+    <title>Jauntie</title>
+    <link rel="shortcut icon" href="assets/img/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-  <link rel="stylesheet" href="assets/slider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="assets/css/slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
-<script>jQuery(document).ready(function(){
-  jQuery('.bxslider').bxSlider({
-  pager: false, 
-  speed: 1000,
-  randomStart:true,
-  infiniteLoop: true,
-  auto:true,
-  pause: 5000,
-  autoHover:true,
-  responsive: true,
-   controls:false
-  });
-});</script>
-
+    <script>jQuery(document).ready(function(){
+    jQuery('.bxslider').bxSlider({
+    pager: false, 
+    speed: 1000,
+    randomStart:true,
+    infiniteLoop: true,
+    auto:true,
+    pause: 2500,
+    autoHover:true,
+    responsive: true,
+    controls:false,
+    mode: 'fade'
+    });
+    });</script>
 
 </head>
 <body>
-  <header>
-    <nav role="navigation">
-      <ul>
-        <li>
-          <a href=""><img src="assets/Images/Goner Logo PNG.png" height="53px" width="53px">
-            <div>
-              Home
-              <span>life is journey</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div>
-              Turism Extern
-              <span>whole world at your feet</span>
-            </div>
-          </a><div>
-            <ul>
-              <li><a href="#">whole</a></li>
-              <li><a href="#">world</a></li>
-              <li><a href="#">at</a></li>
-              <li><a href="#">your</a></li>
-              <li><a href="#">feet</a></li>
+    <header>
+        <figure>
+            <img src="assets/img/logo.png" alt="">
+            <figcaption>JAUNTIE</figcaption>
+        </figure>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Turism Extern</a>
+            <a href="#">Turism Intern</a>
+            <a href="#">Galerie</a>
+            <a href="#">Despre Noi</a>
+            <a href="#" class="button">Sign up</a>
+        </nav>
+    </header>  
+    <section id="main">
+        <div>
+            <span>Ești în căutarea unei experiențe<br> de neuitat, unei <strong>călătorii</strong> care îți<br> va umple viata de emoții noi?</span>
+            <h1>Acesta este locul care îți trebuie!</h1>
+            <a href="#">Vezi de ce</a>
+        </div>
+        <div id="sliders">
+            <ul class="bxslider">
+              <li><img src="assets/img/slider 1.jpg"/></li>
+              <li><img src="assets/img/slider 2.jpg"/></li>
+              <li><img src="assets/img/slider 3.jpg"/></li>
+              <li><img src="assets/img/slider 4.jpg"/></li>
             </ul>
-          </div>
-        </li>
-        <li>
-          <a href="">
-            <div>
-              Turism Intern
-              <span>nothing better native places</span>
-            </div>
-          </a><div>
-            <ul>
-              <li><a href="#">nothing</a></li>
-              <li><a href="#">better</a></li>
-              <li><a href="#">native</a></li>
-              <li><a href="#">places</a></li>
-            </ul>
-          </div>
-        </li>
-        <li>
-          <a href="">
-            <div>
-              Galerie
-              <span>frozen over time</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div>
-              Despre noi
-              <span>trust but verify</span>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div>
-              Logare
-              <span>get closer to us</span>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <ul class="bxslider">
-    <li><img src="assets/Images/slide 1.jpg"/></li>
-    <li><img src="assets/Images/slide 2.jpg"/></li>
-    <li><img src="assets/Images/slide 3.jpg"/></li>
-    <li><img src="assets/Images/slide 4.jpg"/></li>
-    <li><img src="assets/Images/slide 5.jpg"/></li>
-    <li><img src="assets/Images/slide 6.jpg"/></li>
-    <li><img src="assets/Images/slide 7.jpg"/></li>
-  </ul>
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo accusantium maiores quisquam necessitatibus neque dignissimos. Delectus accusantium enim quidem dolores placeat labore iste aut blanditiis cum. Hic enim atque iste. Maxime aspernatur quibusdam deleniti reprehenderit nam quis fugit quas debitis, hic maiores velit tenetur, totam praesentium esse eveniet assumenda ipsam temporibus! Qui obcaecati iusto maxime minus voluptatum quo officia doloremque quibusdam similique sed. Id amet incidunt hic facilis velit, labore eveniet! Nostrum enim doloribus itaque, ab cumque minus atque nam consequatur doloremque error? Aspernatur natus, voluptatem enim quis tenetur expedita aliquid maxime nemo eum quisquam facilis ut, possimus dolore facere accusantium? Fuga incidunt ex amet nostrum eius id nobis, culpa dolore, temporibus vero voluptatum quam voluptate harum minima! Quidem quae magnam iste dolorem sit, pariatur quod voluptatum obcaecati minus odit beatae voluptates nemo reprehenderit cupiditate esse. Vel corporis aut natus hic quo impedit sint officia illo amet molestiae quidem, iusto quisquam unde, tempora commodi neque mollitia odit veritatis adipisci perferendis! Asperiores numquam repudiandae fugiat provident distinctio cumque totam, dicta earum sequi a nostrum laboriosam quia similique eveniet voluptatum voluptates recusandae ratione excepturi autem sint tempore necessitatibus obcaecati veritatis laborum? Reiciendis fuga id illo, soluta ducimus sed nesciunt itaque in ea cumque maxime minima eum ipsa sint qui dolores libero dolore. Deserunt, eius. Officia, quae quasi. Commodi incidunt nisi vel vero officia animi tempora, exercitationem voluptatem fugit molestias, nesciunt quam ab sit, fugiat esse magni deserunt harum ex est fuga rerum ipsa soluta officiis obcaecati. Debitis, molestiae perferendis? Optio nesciunt vero excepturi, dolorem saepe quaerat ratione deserunt. Molestias delectus harum vel laborum dolorum eligendi deleniti temporibus doloribus dicta consequuntur. Facilis magnam neque soluta consectetur sint, nostrum laborum fugiat rerum vel doloremque asperiores ad dolorum corporis odio totam corrupti enim similique ratione ipsam? Inventore suscipit in voluptas fuga at, quos maiores numquam debitis unde? Saepe, neque impedit perferendis eaque debitis, eius eum corporis porro repellendus ad voluptas at recusandae provident, quos quia tenetur iste. Excepturi tempora fugiat cupiditate adipisci! Dolor ratione nam voluptate quasi ullam, maxime consectetur est iure. Sunt soluta voluptates suscipit modi in mollitia, dolore a, voluptatibus sit libero expedita. Perspiciatis accusamus at voluptatibus veritatis incidunt modi illo tenetur a natus, eum sapiente placeat ipsam neque quis laudantium officia quod totam temporibus expedita aperiam voluptatum assumenda? Aliquid sed officia molestiae quas modi ullam. Eum voluptate corporis laudantium quaerat reiciendis, quisquam similique alias provident? Fugiat rerum eum placeat error modi dicta alias quaerat delectus architecto sapiente cum expedita, soluta numquam molestiae labore impedit, nemo libero id cupiditate ratione? Dolorum inventore ullam aspernatur earum unde culpa nobis assumenda et soluta mollitia adipisci excepturi repellat, praesentium deserunt omnis saepe. Sint asperiores fugiat voluptatum quas nulla laboriosam culpa officia dolorum, sunt ratione hic in porro doloribus quae dolores enim. Quasi sunt sapiente fugit cum fugiat est. Deleniti, fuga mollitia! Dolore iure accusantium, dolorum soluta aperiam ab dolorem animi aliquam earum totam esse sed illo repellendus. Earum placeat asperiores quidem perspiciatis, esse maxime sequi? Quibusdam facere ab dolore pariatur? Numquam, nemo similique repellendus maiores nesciunt iure minus laborum magni eligendi quae temporibus tempore omnis molestiae accusantium eaque fuga, commodi expedita deserunt consequuntur ut maxime et adipisci. Molestias architecto maxime tenetur unde ratione, minus quasi ullam, cum officiis ex libero, qui impedit. Cupiditate alias natus veniam fugit eos amet! Soluta ipsum recusandae suscipit eius reiciendis minus doloribus tempora, eaque architecto expedita ipsa porro quisquam itaque totam. Unde rerum mollitia obcaecati itaque ipsum rem illo consequatur quibusdam dolor autem quis esse totam pariatur, hic cumque dolorum voluptatibus fuga at animi non et voluptatum dicta est ducimus? Cupiditate omnis alias animi dolorem blanditiis quia, id accusantium reiciendis amet voluptate expedita sapiente? Dicta facilis quos et magnam, minima possimus voluptates voluptate commodi culpa voluptatibus cupiditate dignissimos corporis sequi nemo beatae aspernatur. Non nulla illum voluptatibus odit expedita! Eos voluptate eligendi voluptatem. Fuga accusantium expedita, temporibus pariatur ea eaque nisi adipisci culpa suscipit eveniet incidunt rerum sit earum quas debitis rem! Laudantium quis placeat ipsum magnam maxime quae ducimus nihil eligendi enim quisquam, quaerat corporis illo itaque exercitationem nemo omnis. Voluptatibus deserunt illo rem sed consequatur porro blanditiis dolores quo perferendis, iusto minima velit ab ipsa, suscipit harum expedita ratione labore nisi non quidem, quia sit distinctio? Nostrum iure eaque exercitationem quasi iste vel incidunt necessitatibus, tenetur saepe nesciunt, quas quos reprehenderit impedit ut provident possimus aliquam ipsam! Pariatur ratione ipsam tempora quaerat. Necessitatibus tempore natus laudantium eligendi sit repellat eveniet quo architecto tenetur in, mollitia fugiat quisquam repellendus aut vero aliquid sint! Dicta, sunt placeat deserunt maiores non assumenda voluptatem repudiandae. Dolore quam, nihil perferendis tempora animi ullam, tenetur neque libero, fugiat earum repudiandae maiores. Natus minus autem, suscipit unde animi exercitationem mollitia! Et, rerum officia perferendis similique in veritatis nesciunt expedita itaque non quis eius dolore excepturi quibusdam commodi fugiat neque maxime eveniet. Sit porro unde aspernatur modi iusto consequuntur nobis, beatae ipsam quaerat, iste saepe autem. Minus officiis facere totam eaque hic, quod, quas ipsam, autem suscipit dolorem molestias ex. Quibusdam reiciendis veritatis veniam placeat saepe sit illum modi porro rerum. Quae, cum commodi dolore quasi ea velit esse reprehenderit ipsam sed! Deserunt mollitia dolor reprehenderit tempore ipsam. Delectus dignissimos minus officiis, accusantium cum neque impedit. Aliquid ad, quia at mollitia magni nobis possimus earum modi! Vel nobis quidem nesciunt ipsum, eveniet laborum excepturi nam harum? Doloremque dignissimos quod tenetur, hic architecto iste porro quis itaque animi a expedita commodi aperiam debitis ipsa impedit cupiditate. Sunt aperiam aut quo repellendus? Et rem ipsum exercitationem ad voluptas repudiandae aut adipisci, veritatis quisquam vel aliquid doloremque eveniet cum totam porro, repellat tempora debitis placeat similique velit voluptate molestias nihil voluptatibus. Exercitationem doloribus doloremque ipsam sapiente repellat dolorum distinctio fuga officia sunt, consectetur voluptatibus, nulla modi, obcaecati commodi nisi ipsa consequatur debitis numquam accusantium nihil illo. Nostrum quam animi sint adipisci nam dicta culpa ex sit nulla quisquam architecto odit alias, perferendis consequuntur ullam quasi voluptatibus ipsa debitis nesciunt? Natus quod accusamus distinctio commodi maiores soluta quibusdam! Suscipit quas laboriosam asperiores molestias, aperiam temporibus, qui, iure natus aliquam aut quo. 
+        </div>
+    </section>  
 </body>
-<html>
+</html>

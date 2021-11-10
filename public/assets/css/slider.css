@@ -4,7 +4,7 @@
 ===================================*/
 .bx-wrapper {
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
     padding: 0;
     *zoom: 1;
     -ms-touch-action: pan-y;
@@ -17,6 +17,7 @@
   .bxslider {
     margin: 0;
     padding: 0;
+
   }
   ul.bxslider {
     list-style: none;
@@ -27,8 +28,8 @@
     -moz-box-shadow: 0 0 5px #ccc;
     -webkit-box-shadow: 0 0 5px #ccc;
     box-shadow: 0 0 5px #ccc;
-    border-top: 85px solid rgb(62,188,207);
     background: #fff;
+    top: 0px;
   }
   .bx-wrapper .bx-pager,
   .bx-wrapper .bx-controls-auto {
@@ -171,3 +172,8 @@
     font-size: .85em;
     padding: 10px;
   }
+
+.bx-wrapper, .bx-viewport, .bx-wrapper img {
+
+  border-radius:50px;
+}
