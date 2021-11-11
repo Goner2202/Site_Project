@@ -1,0 +1,106 @@
+/*FOOTER TOP*/
+#footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#footer-top div h4{
+    margin: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#footer-top div p {
+    width: 480px;
+    margin: 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 18px;
+}
+
+#email-subscribe input {
+    padding-left: 10px;
+    width: 355px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px 0px 0px 4px;
+}
+
+#email-subscribe button {
+    position: absolute;
+    width: 120px;
+    font-size: 16px;
+    color: white;
+    background-color: #DAA520;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#email-subscribe input, button {
+    border: 1px solid #DAA520;
+    height: 40px;
+}
+
+#email-subscribe ::placeholder {
+    color: #AFAFAF;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*FOOTER BOTTOM*/
+#footer-bottom {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    font-family: Nunito;
+}
+
+#footer-bottom figure {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+
+#footer-bottom figure img {
+    margin-right: 10px;
+    width: 68.25px;
+    height: 31.5px;
+    position: relative;
+    top: -5px;
+}
+
+#footer-bottom h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+#footer-bottom div p{
+    color: #3333337a;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    top: 0px;
+}
+
+#footer-bottom a{
+    color: #3333337a;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+}

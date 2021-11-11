@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/layouts/header.css">
+    <link rel="stylesheet" href="assets/css/layouts/footer.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/slider.css">
@@ -20,7 +22,7 @@
     <script>jQuery(document).ready(function(){
     jQuery('.bxslider').bxSlider({
     pager: false, 
-    speed: 1000,
+    speed: 750,
     randomStart:true,
     infiniteLoop: true,
     auto:true,
@@ -34,7 +36,7 @@
 
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <figure>
             <img src="assets/img/logo.png" alt="">
             <figcaption>JAUNTIE</figcaption>
@@ -52,7 +54,7 @@
         <div>
             <span>Ești în căutarea unei experiențe<br> de neuitat, unei <strong>călătorii</strong> care îți<br> va umple viata de emoții noi?</span>
             <h1>Acesta este locul care îți trebuie!</h1>
-            <a href="#">Vezi de ce</a>
+            <a href="#why-us">Vezi de ce</a>
         </div>
         <div id="sliders">
             <ul class="bxslider">
@@ -62,6 +64,153 @@
               <li><img src="assets/img/slider 4.jpg"/></li>
             </ul>
         </div>
+    </section>
+    <section id="why-us">
+        <header>
+            <img src="assets/img/logo.png" alt="">
+            <span>De ce anume noi</span>
+            <hr>
+            <h2>DESPRE JAUNTIE</h2>
+        </header>
+        <article>
+            <div>
+                <img src="assets/img/why-us.jpg" alt="">
+            </div>
+            <div>
+                <span>
+                    <strong>JAUNTIE</strong> este <strong>cea mai profitabilă și sigură<br>
+                    </strong>companie ce îți poate ofera o călătorie, sau <br>
+                     chiar și o simplă plimbare <strong>de calitate înaltă</strong>
+                </span>
+                <p>
+                    Răspunsul la nevoia ta de experiență este compania noastă.Toți oamenii ar trebui să<br>
+                    călătorească, fiindcă fără călătorii, viața devine plictisitoare și monotonă.
+                </p>
+            </div>
+        </article>
+    </section>
+    <section id="FAQ">
+        <header>
+            <img src="assets/img/logo.png" alt="">
+            <span>Întrebări Frecvente</span>
+            <hr>
+            <h2>FAQ</h2>
+        </header>
+        <article>
+            <div>
+                <div>
+                    <h4>
+                        Care zi a săptămânii este cea mai bună zi pentru a cumpăra bilete?
+                    </h4>
+                    <p>
+                        Atât pentru călătoriile interne, cât și internaționale, duminica poate fi mai ieftină* pentru achiziția de bilete de avion. Pentru zborurile interne, lunile au prezentat cele mai mari prețuri medii ale biletelor, iar pentru zborurile internaționale, evitați rezervarea vineri. Rezervarea în ziua potrivită a săptămânii vă poate economisi până la 20% la zbor*, conform datelor istorice.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Cu cât timp înainte ar trebui să cumpăr bilete?
+                    </h4>
+                    <p>
+                        Pe baza datelor de zbor globale din 2020, cu 21 de zile înainte de plecare* este punctul ideal pentru rezervarea zborurilor. Dar aceasta nu este o regulă tare și rapidă; monitorizarea prețurilor este o idee bună atunci când încercați să găsiți cea mai bună ofertă. Comparați tarifele de la diferite companii aeriene și configurați o alertă de preț pentru ruta dvs. preferată.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Care sunt cele mai ieftine zile pentru a călători?
+                    </h4>
+                    <p>
+                        Analiza prețurilor biletelor aeriene interne și internaționale a arătat că zborul duminica poate fi mai ieftin*. Mulți călători își încep călătoriile vineri sau sâmbătă, așa că șansele tale de un preț mai mic sunt mai mari atunci când pleacă devreme în cursul săptămânii. Începerea călătoriei într-o duminică ar putea fi cu aproape 24% mai ieftin* decât călătoria  de vineri, așa că rezervați cu înțelepciune!
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Care este cea mai ieftină lună pentru a zbura?
+                    </h4>
+                    <p>
+                        Cea mai ieftină lună pentru a zbura poate varia în funcție de locul în care mergeți, așa că găsirea celor mai bune tarife se reduce în mare parte la evitarea orelor de vârf de călătorie pentru destinația dvs. Un sfat excelent este să călătorești în timpul sezonului umăr - un nume pentru fereastra de timp dintre sezonul turistic ridicat și cel scăzut al unei destinații. Acestea sunt cele mai bune perioade pentru a obține tarife mai bune și pentru a vă bucura în continuare de vremea temperată. Perioadele de vârf care tind să fie mai scumpe, indiferent unde te îndrepți, sunt iunie și iulie, din cauza programului de vacanță de vară pentru familii, și decembrie, în preajma Crăciunului și Anului Nou.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h4>
+                        Cum pot găsi cele mai ieftine zboruri pe Jauntie?
+                    </h4>
+                    <p>
+                        Comparați prețurile biletelor de avion dintr-o privire dintr-un inventar mare de transportatori pe Jauntie. Puteți obține zboruri ieftine rămânând flexibil cu datele călătoriei, transportatorii și zboruri non-stop pentru a obține cel mai bun preț. Sfat: Deveniți membru (este gratuit!) pentru a câștiga recompense la fiecare rezervare. Vă facem călătoria fără stres și obținem oferte incredibile de bilete de avion, astfel încât să vă puteți relaxa și să vă începeți vacanța sau călătoria de afaceri.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Cum pot economisi bani la zboruri?
+                    </h4>
+                    <p>
+                        Combinarea și potrivirea companiilor aeriene și a tipurilor de tarife ar putea ajuta la economisirea de bani pe biletele de avion către destinația dvs. Comparați cu ușurință prețurile la transportatori, datele de sosire și plecare, clasa de cabină a avionului și multe altele atunci când rezervați cu Jauntie. Rezervarea biletului de avion într-o duminică și plecarea joi sau vineri ar putea economisi bani*, pe baza datelor istorice
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Cum pot obține un zbor ieftin de ultimă oră?
+                    </h4>
+                    <p>
+                        Analiza datelor istorice privind modelele de prețuri ale zborurilor arată că puteți găsi în continuare oferte uimitoare la biletele de avion cu 3 săptămâni înainte de plecare*. Încercați să fiți flexibil cu datele călătoriei, aeroporturi, zboruri non-stop pentru a găsi cele mai ieftine zboruri pe Jauntie. Fie că plănuiești o călătorie rapidă de afaceri sau o vacanță spontană cu prietenii, vei avea de ales între zboruri de ultim moment, dus-întors sau zboruri din mai multe orașe pe Jauntie. Veți găsi tot ce aveți nevoie pentru călătoriile dvs. într-un singur loc și totul la prețul corect. 
+                    </p>
+                </div>
+                <p id="sp">
+                    <i>*Specialiștii în date atât de la Jauntie au analizat datele globale de zbor pentru a distila informații utile, pentru a ajuta oamenii să economisească bani în călătorii. Deși este imposibil să garantăm când veți găsi cele mai mici prețuri, după examinarea variabilelor, gripa nosatră a putut observa tendințele. Cea mai bună zi a săptămânii pentru a rezerva și a plănui călătoria se bazează pe prețurile medii ale biletelor dus-întors din ianuarie până la începutul lunii octombrie, atât pentru 2020, cât și pentru 2021, provenite din baza de date de vânzări globale a companiilor aeriene.</i></p>
+            </div>
+        </article>
+
     </section>  
+    
+    
+
+    <footer>
+        <div id="footer-top">
+            <div>
+                <h4>Abonează-te la noutățile noastre</h4>
+                <p>Noutăți lunare despre noile oferte de la Jauntie, cele mai fierbinți oferte.</p>
+            </div>
+            <div id="email-subscribe">
+                <input type="text" placeholder="Adresa ta email"></input>
+                <button type="submit" name="button">Abonează-te</button>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <div>
+                <figure>
+                    <img src="assets/img/logo.png" alt="">
+                    <figcaption>JAUNTIE</figcaption>
+                </figure>
+                <p>067-341-293<br>
+                goner2202@gmail.com<br>
+                Moldova, Chișcăreni</p>
+            </div>
+            <div>
+                <h4>Product</h4>
+                <a href="#">Bilete</a><br>
+                <a href="#">Preturi</a><br>
+                <a href="#">Servicii</a><br>
+            </div>
+            <div>
+                <h4>Resurse</h4>
+                <a href="#">Blog</a><br>
+                <a href="#">Contacte</a><br>
+                <a href="#FAQ">Întrebări Frecvente</a>
+            </div>
+            <div>
+                <h4>Compania</h4>
+                <a href="#">Recenzii</a><br>
+                <a href="#">Despre Noi</a><br>
+                <a href="#">Echipa noastră</a>
+            </div>
+            <div>
+                <h4>Urmărește-ne</h4>
+                <a href="#">Twitter</a><br>
+                <a href="#">Facebook</a><br>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
