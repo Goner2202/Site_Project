@@ -61,6 +61,7 @@ div#last-main-div{
 .a-container{
     background: white;
     text-decoration: none;
+    color: #333333;
 }
 .a-container:visited{
     color: #333333;
