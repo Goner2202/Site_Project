@@ -30,6 +30,7 @@
     box-shadow: 0 0 5px #ccc;
     background: #fff;
     top: 0px;
+    z-index: 1;
   }
   .bx-wrapper .bx-pager,
   .bx-wrapper .bx-controls-auto {
@@ -173,7 +174,3 @@
     padding: 10px;
   }
 
-.bx-wrapper, .bx-viewport, .bx-wrapper img {
-
-  border-radius:50px;
-}

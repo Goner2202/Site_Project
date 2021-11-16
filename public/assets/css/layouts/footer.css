@@ -35,12 +35,12 @@
     width: 120px;
     font-size: 16px;
     color: white;
-    background-color: #DAA520;
+    background-color: #F42D59;
     border-radius: 0px 4px 4px 0px;
 }
 
 #email-subscribe input, button {
-    border: 1px solid #DAA520;
+    border: 1px solid #F42D59;
     height: 40px;
 }
 
@@ -54,27 +54,38 @@
 }
 
 /*FOOTER BOTTOM*/
-#footer-bottom {
+.section-footer{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #333333;
+    height: 155px; 
+}
+
+#footer-bottom{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
     font-family: Nunito;
+    color: white;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#footer-bottom figure {
+#footer-bottom figure{
     margin: 0px;
     display: flex;
     align-items: center;
     margin-bottom: 0px;
     font-weight: 600;
     font-size: 18px;
-    color: #333333;
     font-weight: bold;
     position: relative;
     top: 10px;
 }
 
-#footer-bottom figure img {
+#footer-bottom figure img{
     margin-right: 10px;
     width: 68.25px;
     height: 31.5px;
@@ -82,22 +93,21 @@
     top: -5px;
 }
 
-#footer-bottom h4 {
+#footer-bottom h4{
     margin-top: 0px;
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 18px;
-    color: #333333;
 }
 
 #footer-bottom div p{
-    color: #3333337a;
+
     font-size: 16px;
     line-height: 30px;
 }
 
 #footer-bottom a{
-    color: #3333337a;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     line-height: 30px;
