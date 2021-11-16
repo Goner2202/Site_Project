@@ -171,31 +171,33 @@ section#FAQ header{
     bottom: 50px;
 }
 
+section#FAQ header {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
 section#FAQ header img{
     width: 91px;
     height: 42px;
     position: relative;
-    top: 100px;
+    top: 3px;
 }
 
 section#FAQ header span{
     color: #333333;
     font-weight: bold;
     font-size: 36px;
-    position: relative;
-    left: 0px;
-    top: 95px;
 }
 
 section#FAQ header hr{
     border: 0px;
-    width: 500px;
-    height: 1px;
+    width: 1250px;
+    height: 10px;
     position: relative;
-    top: 64px;
-    left: 133px;
-    background: linear-gradient(to right ,#333333, #2222221A);
-    border-radius: 1px;
+    top: 5px;
+    right: 60px;
+    background: linear-gradient(to bottom ,#33333366, #ffffff);
 }
 
 section#FAQ header h2{
@@ -233,5 +235,5 @@ section#FAQ article div #sp{
 }
 .article-div-2{
     position: relative;
-    bottom: 28px;
+    bottom: 27px;
 }
