@@ -65,21 +65,13 @@ section#main article{
 }
 
 section#main article img{
-    height: 300px;
+    height: 250px;
 }
 
-.img-1-1-1-1{
+.img-1{
     width: 293.75px;
 }
 
-.img-2-1-1{
-    width: 600px;
-}
-
-.img-1-1-2{
-    width: 300px;
-}
-
-.img-1-1{
+.img-2{
     width: 612.5px;
 }
