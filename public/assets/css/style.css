@@ -168,11 +168,6 @@ section#FAQ header{
     height: 150px;
     padding-bottom: 30px;
     position: relative;
-    bottom: 50px;
-}
-
-section#FAQ header {
-    position: relative;
     top: 20px;
     text-align: center;
 }

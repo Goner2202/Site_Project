@@ -3,7 +3,37 @@ body{
     margin: 0 auto;
     font-family: Nunito;
 }
-/*Section Main*/
+/*Section header*/
+section#header header{
+    height: 150px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+section#header header p{
+    color: #333333;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+section#header header hr{
+    border: 0px;
+    width: 1150px;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(to bottom ,#33333366, #ffffff);
+}
+
+section#header header span{
+    color: #F42D59;
+}
+
+/*Section main*/
 section#main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -21,9 +51,11 @@ section#main{
     color: #333333;
     box-shadow: 0 0 5px  #33333366;
 }
+
 .a-container:visited{
     color: #333333;
 }
+
 .a-container:hover{
     color: #F42D59;
 }
@@ -41,4 +73,33 @@ section#main{
 
 .a-container p{
     font-size: 20px;
+}
+
+/*Section pages-buttons*/
+section#pages-buttons{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    height: 50px;
+    padding: 50px 562.5px;
+    font-size: 37px;
+}
+
+section#pages-buttons a{
+    text-decoration: none;
+    color: #333333;
+    box-shadow: 0 0 5px  #33333366;
+}
+
+section#pages-buttons a:visited{
+    color: #333333;
+}
+
+section#pages-buttons a:hover{
+    color: #F42D59;
+}
+
+.page-a-active{
+    border: 2px solid #F42D59;
 }
