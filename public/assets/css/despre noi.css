@@ -7,8 +7,6 @@ body{
 section#main header{
     height: 150px;
     padding-bottom: 75px;
-    position: relative;
-    top: 20px;
     text-align: center;
 }
 
