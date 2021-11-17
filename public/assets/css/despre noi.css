@@ -1,49 +1,36 @@
 body{
     width: 1250px;
     margin: 0 auto;
+    font-family: Nunito;
 }
 /*Section main*/
-section#main header img{
-    width: 91px;
-    height: 42px;
+section#main header{
+    height: 150px;
+    padding-bottom: 75px;
     position: relative;
-    top: 0px;
+    top: 20px;
+    text-align: center;
 }
 
-section#main header span{
-    color: #3E3F43;
-    font-family: Nunito;
+section#main header p{
+    color: #333333;
     font-weight: bold;
     font-size: 36px;
-    position: relative;
-    left: 0px;
-    top: -5px;
+    margin: 0;
 }
 
 section#main header hr{
     border: 0px;
-    width: 200px;
-    height: 1px;
+    width: 1250px;
+    height: 10px;
     position: relative;
-    top: -36px;
-    left: -53px;
-    background: linear-gradient(to right ,#3E3F43, #2222221A);
-    border-radius: 1px;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(to bottom ,#33333366, #ffffff);
 }
 
-section#main header h2{
-    color: #2222221A;
-    font-family: Nunito;
-    font-weight: bold;
-    font-size: 72px;
-    position: relative;
-    bottom: 144px;
-    left: 691px;
-    width: 559px;
-}
-
-section#main article{
-    font-family: Nunito;
+section#main header span{
+    color: #F42D59;
 }
 
 section#main article span{
