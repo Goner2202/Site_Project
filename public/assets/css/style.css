@@ -2,7 +2,7 @@ body{
     width: 1250px;
     margin: 0 auto;
     font-family: Nunito;
-    background-image: url(../img/BackgroundG.png);
+    background-image: url(/assets/img/BackgroundG.png);
 }
 
 /*Section Main*/
@@ -25,10 +25,6 @@ div#main-div h1{
     font-weight: 400;
     font-size: 38px;
     margin: 0;
-}
-
-div#main-div span{
-    font-weight: 700;
 }
 
 div#main-div p{
